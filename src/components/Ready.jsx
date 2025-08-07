@@ -54,14 +54,15 @@ const Ready = () => {
                 <div
                   key={badge.title}
                   className={`flex z-1 items-center gap-4 pb-4 lg:pb-2 lg:border-b-0 last:border-none
-                 ${index === 0
-                      ? "xl:w-[375px]"
-                      : index === 1
-                        ? "xl:w-[247px]"
-                        : index === 2
-                          ? "xl:w-[325px]"
-                          : ""
-                    }`}
+                 ${
+                   index === 0
+                     ? "xl:w-[375px]"
+                     : index === 1
+                     ? "xl:w-[247px]"
+                     : index === 2
+                     ? "xl:w-[325px]"
+                     : ""
+                 }`}
                 >
                   <div className="flex items-center justify-center size-13 box-border-gradient relative !bg-[linear-gradient(321.29deg,_rgba(255,_255,_255,_0.2)_22.72%,_rgba(255,_255,_255,_0)_74.04%)] rounded-xl">
                     <badge.img />
@@ -78,7 +79,6 @@ const Ready = () => {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </div>

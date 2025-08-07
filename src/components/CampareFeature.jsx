@@ -3,7 +3,7 @@ import { COMPARE_FEATURE_DATA } from "../utils/helper";
 
 const CampareFeature = () => {
   return (
-    <div id="features" className="bg-black px-4">
+    <div id="features" className="bg-black px-4 relative">
       <div className="max-w-[1140px] mx-auto pt-[46px] md:pt-12 lg:pt-20 pb-[60px] sm:pb-14 md:pb-24 lg:pb-36">
         <h4 className="font-semibold text-xl sm:text-2xl leading-[160%] text-white mb-6">
           Compare Features

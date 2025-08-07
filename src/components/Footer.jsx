@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="lg:w-1/3">
             <div className="flex items-center mb-4">
               <img
-                src={footerLogo} 
+                src={footerLogo}
                 alt="footerLogo"
                 className="lg:w-[60px] object-contain pointer-events-none"
               />

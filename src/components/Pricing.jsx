@@ -78,7 +78,7 @@ const Pricing = () => {
   const currentData = page === "home" ? PRICING_DATA : YEARLYPRICING_DATA;
 
   return (
-    <div id="pricing" className="relative text-white pt-5 sm:pt-16">
+    <div id="pricing" className="relative bg-black text-white pt-5 sm:pt-16">
       <img
         className="max-w-[379px] max-h-[379px] w-full absolute -bottom-25 left-0 pointer-events-none bg-black"
         src={leftEllipse}

@@ -9,7 +9,10 @@ import CustomBorder from "../common/CustomBorder";
 const Action = () => {
   return (
     <>
-      <div id="about" className="px-3 relative pb-[60px] sm:pb-20 md:pb-35 bg-black">
+      <div
+        id="about"
+        className="px-3 relative pb-[60px] sm:pb-20 md:pb-35 bg-black"
+      >
         <img
           className="absolute max-w-[400px] max-h-[400px] w-full -top-27 -left-20 pointer-events-none"
           src={actionEllipse}
