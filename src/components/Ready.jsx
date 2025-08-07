@@ -8,7 +8,7 @@ const Ready = () => {
   return (
     <div
       id="work"
-      className="flex justify-center items-center bg-gradient-to-br  px-4 bg-black"
+      className="flex justify-center items-center bg-gradient-to-br  px-4 bg-[#000000]"
     >
       <div className="bg-[#E649A208] rounded-2xl shadow-lg relative ready-box-border w-full max-w-[1238px] lg:py-[50px] lg:px-16 py-8 md:px-5 px-3">
         <div className="max-w-[1150px]">
@@ -37,7 +37,7 @@ const Ready = () => {
                     <feature.img />
                   </div>
                   <div>
-                    <div className="text-white font-semibold pb-[6px]">
+                    <div className="text-[#ffffff] font-semibold pb-[6px]">
                       {feature.title}
                     </div>
                     <div className="text-[#B6B2B7] max-md:text-sm">
@@ -68,7 +68,7 @@ const Ready = () => {
                     <badge.img />
                   </div>
                   <div>
-                    <div className="text-white text-xl pb-[6px] font-semibold">
+                    <div className="text-[#ffffff] text-xl pb-[6px] font-semibold">
                       {badge.title}
                     </div>
                     <div className="text-[#B6B2B7] lg:whitespace-nowrap max-md:text-sm">

@@ -9,7 +9,7 @@ import CustomBorder from "../common/CustomBorder";
 const Everything = () => {
   return (
     <>
-      <div className="text-white max-w-[1920px] w-full mx-auto relative bg-black">
+      <div className="text-[#ffffff] max-w-[1920px] w-full mx-auto relative bg-[#000000]">
         <img
           className="absolute max-w-[379px] max-h-[379px] w-full top-19 -left-10 pointer-events-none"
           src={leftEllipse}

@@ -11,8 +11,8 @@ import CustomBorder from "../common/CustomBorder";
 const Members = () => {
   return (
     <>
-      <div className="px-4 bg-black">
-        <div className="bg-black">
+      <div className="px-4 bg-[#000000]">
+        <div className="bg-[#000000]">
           <div className="max-w-[1920px] mx-auto pb-[60px] md:pb-[80px] lg:pb-[140px]">
             <Heading
               headingClass="text-white mb-4"
@@ -51,7 +51,7 @@ const Members = () => {
                           alt="member-icon"
                         />
                       </div>
-                      <p className="text-white mb-6 text-base leading-[160%]">
+                      <p className="text-[#ffffff] mb-6 text-base leading-[160%]">
                         {Obj.text}
                       </p>
                     </div>
@@ -62,7 +62,7 @@ const Members = () => {
                         alt={Obj.name}
                       />
                       <div className="text-left">
-                        <div className="font-medium text-white text-base leading-[160%]">
+                        <div className="font-medium text-[#ffffff] text-base leading-[160%]">
                           {Obj.name}
                         </div>
                         <div className="text-sm text-white/70 leading-[160%]">

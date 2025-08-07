@@ -9,7 +9,7 @@ const Faq = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="flex justify-center items-center py-[60px] sm:py-20 md:py-[130px] bg-black relative">
+    <div className="flex justify-center items-center py-[60px] sm:py-20 md:py-[130px] bg-[#000000] relative">
       <div className="w-full max-w-[816px] mx-auto px-3">
         <Heading
           headingText="Frequently Asked Questions"
@@ -30,10 +30,10 @@ const Faq = () => {
                 }`}
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
               >
-                <span className="text-left md:text-2xl text-xl  font-semibold text-white">
+                <span className="text-left md:text-2xl text-xl  font-semibold text-[#ffffff]">
                   {faq.question}
                 </span>
-                <span className="text-2xl text-white font-bold select-none">
+                <span className="text-2xl text-[#ffffff] font-bold select-none">
                   {openIndex === idx ? "−" : "+"}
                 </span>
               </button>

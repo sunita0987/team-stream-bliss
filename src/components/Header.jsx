@@ -9,23 +9,19 @@ import headerEllipseTwo from "../assets/images/header-ellipse-2.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleNavbar = () => {
     setMenuOpen(!menuOpen);
     document.body.classList.toggle("overflow-hidden", !menuOpen);
   };
-
   useEffect(() => {
     return () => {
       document.body.classList.remove("overflow-hidden");
     };
   }, []);
-
   const linkClick = () => {
     setMenuOpen(false);
     document.body.classList.remove("overflow-hidden");
   };
-
   return (
     <>
       <div className="px-3 relative">
@@ -60,17 +56,17 @@ const Header = () => {
               className="z-50 lg:hidden flex flex-col justify-between w-6 h-5 cursor-pointer"
             >
               <span
-                className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${
+                className={`block h-1 rounded-3xl bg-[#ffffff] transition-transform duration-300 ease-in-out ${
                   menuOpen && "rotate-45 translate-y-2"
                 }`}
               ></span>
               <span
-                className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${
+                className={`block h-1 rounded-3xl bg-[#ffffff] transition-transform duration-300 ease-in-out ${
                   menuOpen && "opacity-0"
                 }`}
               ></span>
               <span
-                className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${
+                className={`block h-1 rounded-3xl bg-[#ffffff] transition-transform duration-300 ease-in-out ${
                   menuOpen && "-rotate-45 -translate-y-2"
                 }`}
               ></span>
@@ -85,7 +81,7 @@ const Header = () => {
                 <li key={index}>
                   <a
                     onClick={linkClick}
-                    className="text-white header-link leading-[160%] transition-all duration-200 ease-linear"
+                    className="text-[#ffffff] header-link leading-[160%] transition-all duration-200 ease-linear"
                     href={item.link}
                   >
                     {item.title}

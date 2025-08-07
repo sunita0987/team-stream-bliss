@@ -32,7 +32,7 @@ const Footer = () => {
                     <li key={link.label}>
                       <a
                         href={link.link}
-                        className="hover:text-pink-400 transition-colors"
+                        className="hover:text-[#EB489B] transition-colors"
                       >
                         {link.label}
                       </a>

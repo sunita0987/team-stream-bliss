@@ -11,7 +11,7 @@ const Action = () => {
     <>
       <div
         id="about"
-        className="px-3 relative pb-[60px] sm:pb-20 md:pb-35 bg-black"
+        className="px-3 relative pb-[60px] sm:pb-20 md:pb-35 bg-[#000000]"
       >
         <img
           className="absolute max-w-[400px] max-h-[400px] w-full -top-27 -left-20 pointer-events-none"
@@ -41,10 +41,10 @@ const Action = () => {
                         <IconComponent />
                       </div>
                       <div>
-                        <h3 className="text-white font-semibold text-lg">
+                        <h3 className="text-[#ffffff] font-semibold text-lg">
                           {item.title}
                         </h3>
-                        <p className="text-white opacity-70 leading-[160%]">
+                        <p className="text-[#ffffff] opacity-70 leading-[160%]">
                           {item.description}
                         </p>
                       </div>
