@@ -1,6 +1,6 @@
 import React from "react";
 import { FOOTER_DATA } from "../utils/helper";
-import footerLogo from "../assets/images/header-logo-2.svg";
+import footerLogo from "../assets/images/streamlogo.png";
 import Description from "../common/Description";
 import CustomBorder from "../common/CustomBorder";
 
@@ -15,7 +15,7 @@ const Footer = () => {
               <img
                 src={footerLogo}
                 alt="footerLogo"
-                className="lg:w-[60px] object-contain pointer-events-none"
+                className="lg:w-[400px] object-contain pointer-events-none"
               />
             </div>
             <Description

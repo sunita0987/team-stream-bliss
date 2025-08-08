@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import CustomButton from "../common/CustomButton";
 import { HEADER_LIST } from "../utils/helper";
 import { ProfileIcon } from "../utils/icon";
-import headerLogo from "../assets/images/header-logo-2.svg";
-import headerLogoTwo from "../assets/images/header-logo-2.svg";
+import headerLogo from "../assets/images/streamlogo.png";
+import headerLogoTwo from "../assets/images/streamlogo.png";
 import headerEllipse from "../assets/images/header-ellipse (1).png";
 import headerEllipseTwo from "../assets/images/header-ellipse-2.png";
 
