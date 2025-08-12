@@ -10,5 +10,4 @@ const CustomButton = ({ btnClass, btnIcon, btnText, onClick }) => {
     </button>
   );
 };
-
 export default CustomButton;

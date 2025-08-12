@@ -16,7 +16,6 @@ const BackToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
   return (
     <>
       {showButton && (
@@ -30,5 +29,4 @@ const BackToTop = () => {
     </>
   );
 };
-
 export default BackToTop;
